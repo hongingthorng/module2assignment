@@ -4,49 +4,57 @@
 }
 
 h1{
+	text-align: center; 
 	color:red;
-	margin-bottom: 15px;
+	margin-bottom: 15px
 }
 
-p{
+p.first{
 	border: 1px solid black;
-	margin-right: auto;
-	margin-left: auto;
-	height: 150px;
-	width: 90%;
-	color: blue;
+	height: 220px;
+	width: 100%;
+	color: purple;
 	font-family: cursive;
-	padding: 10px;
+	padding: 45px;
+	background-color: orange;
+
+	}
+
+div{
 	position: relative;
 }
+
+
 #I{
 	position: absolute;
-	top:58px;
-	right:475px;
-	width:100px;
-	height:50px;
-	background-color: yellow;
-	border: 2px solid #73AD21;
-}
-
-#C{
-	position:absolute;
-	top:225px;
-	right:475px;
-	width:120px;
-	height:50px;
-	background-color: yellow;
-	border: 2px solid #73AD21;
-}
-
-#M{
-	position:absolute;
-	top:385px;
+	top:10px;
 	right:50px;
 	width:120px;
 	height:50px;
 	background-color: yellow;
 	border: 2px solid #73AD21;
+	float:right;
+}
+
+#C{
+	position:absolute;
+	top:10px;
+	right:50px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	}
+
+#M{
+	position:absolute;
+	top:10px;
+	right:50px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	
 }
 
 .row{
@@ -56,9 +64,9 @@ p{
 @media (min-width: 992px){
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
 	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, 
-	.col-lg-12, {
-		float: right;
-		border: 1px solid orange;
+	.col-lg-12 {
+		padding: 20px;
+		float: left;
 		}
 	.col-lg-1{
 	width:8.33%;
@@ -107,6 +115,39 @@ p{
 	.col-lg-12{
 		width:100%;
 	}
+
+
+#I{
+	position: absolute;
+	top:20px;
+	right:20px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	float:right;
+}
+
+#C{
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	}
+
+#M{
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	
+}
 	
 }
 
@@ -114,10 +155,11 @@ p{
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
 	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, 
-	.col-md-12, {
-		float:none;
-		border: 1px solid orange;
-		}
+	.col-md-12{
+		padding-right: 50px;
+		padding-top: 10px;
+		float:left;
+	}
 
 	.col-md-1{
 		width:8.33%;
@@ -173,10 +215,7 @@ p{
 @media (min-width: 0px) and (max-width: 767px){
 	.col-rg-1, .col-rg-2, .col-rg-3, .col-rg-4, .col-rg-5, .col-rg-6, 
 	.col-rg-7, .col-rg-8, .col-rg-9, .col-rg-10, .col-rg-11, 
-	.col-rg-12, {
-		float:none;
-		border: 1px solid orange;
-	}
+	.col-rg-12
 
 	.col-rg-1{
 		width:8.33%;
@@ -225,4 +264,36 @@ p{
 	.col-rg-12{
 		width:100%;
 	}
+
+#I{
+	position: absolute;
+	top:-16px;
+	right:0px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	float:right;
+}
+
+#C{
+	position:absolute;
+	top:-16px;
+	right:0px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	}
+
+#M{
+	position:absolute;
+	top:-16px;
+	right:0px;
+	width:120px;
+	height:50px;
+	background-color: yellow;
+	border: 2px solid #73AD21;
+	
+}
 }
